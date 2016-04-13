@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "GameView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet GameView *gameView;
 @end
 
 @implementation ViewController

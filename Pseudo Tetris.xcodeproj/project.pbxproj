@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F17EA961CBCCA4B007D27FE /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17EA951CBCCA4B007D27FE /* GameView.m */; };
+		3F17EA9C1CBCCEC5007D27FE /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17EA9B1CBCCEC5007D27FE /* BlockView.m */; };
 		3FEE55401CBCC8680030989F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE553F1CBCC8680030989F /* main.m */; };
 		3FEE55431CBCC8680030989F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE55421CBCC8680030989F /* AppDelegate.m */; };
 		3FEE55461CBCC8680030989F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE55451CBCC8680030989F /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F17EA941CBCCA4B007D27FE /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		3F17EA951CBCCA4B007D27FE /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		3F17EA9A1CBCCEC5007D27FE /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		3F17EA9B1CBCCEC5007D27FE /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 		3FEE553B1CBCC8680030989F /* Pseudo Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pseudo Tetris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEE553F1CBCC8680030989F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FEE55411CBCC8680030989F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 				3FEE55441CBCC8680030989F /* ViewController.h */,
 				3FEE55451CBCC8680030989F /* ViewController.m */,
 				3FEE55471CBCC8680030989F /* Main.storyboard */,
+				3F17EA941CBCCA4B007D27FE /* GameView.h */,
+				3F17EA951CBCCA4B007D27FE /* GameView.m */,
+				3F17EA9A1CBCCEC5007D27FE /* BlockView.h */,
+				3F17EA9B1CBCCEC5007D27FE /* BlockView.m */,
 				3FEE554A1CBCC8680030989F /* Assets.xcassets */,
 				3FEE554C1CBCC8680030989F /* LaunchScreen.storyboard */,
 				3FEE554F1CBCC8680030989F /* Info.plist */,
@@ -151,7 +161,9 @@
 			files = (
 				3FEE55461CBCC8680030989F /* ViewController.m in Sources */,
 				3FEE55431CBCC8680030989F /* AppDelegate.m in Sources */,
+				3F17EA961CBCCA4B007D27FE /* GameView.m in Sources */,
 				3FEE55401CBCC8680030989F /* main.m in Sources */,
+				3F17EA9C1CBCCEC5007D27FE /* BlockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				3FEE55541CBCC8680030989F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
